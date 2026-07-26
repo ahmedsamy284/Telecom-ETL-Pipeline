@@ -90,6 +90,10 @@ def load_data_to_bronze(csv_file_path, server_name, database_name):
 
         # 4. Data Loading
         logger.info("Loading data into Bronze.CDR_Raw table....")
+        # Truncate the table to remove old data before appending the new batch.
+        with engine.begin() as conn:
+            conn.execute(text("TRUNCATE TABLE Bronze.CDR_Raw"))
+            
         df.to_sql(
             name="CDR_Raw",
             schema="Bronze",
