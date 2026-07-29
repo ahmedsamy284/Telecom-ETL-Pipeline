@@ -51,38 +51,39 @@ Develop an end-to-end robust Data Warehouse to consolidate, cleanse, and structu
 
 Below is the structured roadmap followed to design and implement this Data Warehouse:
 
-### 1. Requirements Analysis
+### 🔍 1. Requirements Analysis
 ![Status](https://img.shields.io/badge/-Completed-success)
-- [x] Analyze Business & Data Requirements
+* ✅ Analyze Business & Data Requirements
 
-### 2. Design Data Architecture
+### 📐 2. Design Data Architecture
 ![Status](https://img.shields.io/badge/-Completed-success)
-- [x] Design Medallion Architecture (Bronze, Silver, Gold)
-- [x] Data Flow Diagram (DFD)
-- [x] Entity-Relationship Diagram (ERD)
+* ✅ Design Medallion Architecture (Bronze, Silver, Gold)
+* ✅ Data Flow Diagram (DFD)
+* ✅ Entity-Relationship Diagram (ERD)
 
-### 3. Project Workspace
+### 🛠️ 3. Project Workspace
 ![Status](https://img.shields.io/badge/-Completed-success)
-- [x] Create GitHub Repository
-- [x] Configure `.gitignore`
-- [x] Setup Documentation & Folders
+* ✅ Create GitHub Repository
+* ✅ Configure .gitignore
+* ✅ Setup Documentation & Folders
 
-### 4. Build Bronze Layer (Raw Data)
+### 🥉 4. Build Bronze Layer (Raw Data)
 ![Status](https://img.shields.io/badge/-Completed-success)
-- [x] Ingest Source Data
-- [x] Store in Raw Format
+* ✅ Ingest Source Data
+* ✅ Store in Raw Format
 
-### 5. Build Silver Layer (Cleansed Data)
+### 🥈 5. Build Silver Layer (Cleansed Data)
 ![Status](https://img.shields.io/badge/-Completed-success)
-- [x] Cleanse and Filter Data
-- [x] Handle Missing Values & Duplicates
-- [x] Standardize Formats
+* ✅ Cleanse and Filter Data
+* ✅ Handle Missing Values & Duplicates
+* ✅ Standardize Formats
 
-### 6. Build Gold Layer (Star Schema)
+### 🥇 6. Build Gold Layer (Star Schema)
 ![Status](https://img.shields.io/badge/-Completed-success)
-- [x] Create Dimension Tables
-- [x] Create Fact Tables
-- [x] Optimize for Queries
+* ✅ Create Dimension Tables
+* ✅ Create Fact Tables
+* ✅ Optimize for Queries
+
 
 ---
 
