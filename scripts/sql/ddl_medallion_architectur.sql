@@ -174,7 +174,7 @@ CREATE TABLE Gold.Fact_CDR (
     device_id                VARCHAR(50), 
     called_number            VARCHAR(50), 
     cell_tower_id            VARCHAR(50), 
-    exact_call_start_time    DATETIME, 
+    call_start_time          DATETIME, 
     
     -- ==========================================
     -- Time Dimensions (Derived for partitioning and BI filters)
