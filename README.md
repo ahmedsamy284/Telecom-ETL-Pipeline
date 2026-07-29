@@ -8,7 +8,7 @@ Welcome to the Data Warehouse and Analytics Project Repository! This project ser
 
 The data architecture utilizes a multi-layer approach based on the Medallion Architecture to ensure data quality, reliability, and logical separation:
 
-![Architecture Diagram](docs/architecture.png)
+ <img width="1788" height="921" alt="data_architecture" src="https://github.com/user-attachments/assets/736c8a6c-996b-483a-8dd0-61b68056bc20" />
 *(Note: Data Flow Diagram and ERD are also available in the repository documentation).*
 
 1. **Bronze Layer:** Stores raw data ingested directly from the source systems without any transformations.
